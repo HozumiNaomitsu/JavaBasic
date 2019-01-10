@@ -1,4 +1,5 @@
 package practice02;
+
 /*
  * PTra02_10.java
  *   作成	LIKEIT	2017
@@ -12,6 +13,16 @@ public class PTra02_10 {
 		int coffee = 120;	// コーヒーの値段
 		int snack = 200;	// スナック菓子
 
+		double c=0.08;
+
+		int a=coffee+coffee;
+		double b=(a+snack)*c;
+
+		System.out.println(b);
+
+
+
+
 		/*
 		 * ●一本120円（税別）の缶コーヒーを2本
 		 * ●一袋200円（税別）のスナック菓子を1袋
@@ -21,6 +32,8 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+
 
 	}
 }
