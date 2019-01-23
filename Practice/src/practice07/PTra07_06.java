@@ -24,15 +24,15 @@ public class PTra07_06 {
 		System.out.println(b/4);
 		System.out.println((a+b)/7);
 		
-		
-		for(int i=0;i<array.length;i++) {
-			int sum=0;
-		for(int j=0;j<array[i].length;j++) {
-		
-			sum+=array[i][j];
+		int sum=0;
+
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < array[i].length; j++) {
+
+				sum += array[i][j];
+			}
 		}
-			System.out.println(sum);
-		}
+		System.out.println(sum/7);
 		
 		}
 		
