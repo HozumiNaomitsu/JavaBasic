@@ -40,6 +40,7 @@ public class PTra03_04 {
 		System.out.println("～年はうるう年ではありません。");
 		}
 
+		
 
 
 	}
