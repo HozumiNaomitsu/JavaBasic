@@ -39,6 +39,15 @@ public class PTra10_04 {
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-
+			User[]users=new User(3);
+			
+			java.util.Scanner
+			scanner=new java.util.Scanner(System.in);
+			
+			String line=scanner.nextLine();
+			
+			for(int i=0;i>users.length;i++) {
+			
+				
 	}
 }
