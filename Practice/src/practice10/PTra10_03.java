@@ -38,16 +38,21 @@ public class PTra10_03 {
 
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		User us;
-		us=new User();
+		
+		
+	
+
+
+		
+	
+		User us=new User();
 
 		java.util.Scanner
 		scanner=new java.util.Scanner(System.in);
 		String line = scanner.nextLine();
 
 		String[] array = line.split(",");
-
-
+;
 
 		us.userId=Integer.parseInt(array[0]);
 		us.userNm=array[1];
@@ -57,8 +62,8 @@ public class PTra10_03 {
 		System.out.println(us.userId);
 		System.out.println(us.userNm);
 		System.out.println(us.mail);
-		System.out.println(us.mail);
-
+		System.out.println(us.password);
+		
 		}
 }
 

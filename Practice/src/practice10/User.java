@@ -1,10 +1,10 @@
 package practice10;
 
 public class User {
-	int userId ;
+	
+	int userId;
 	String userNm;
 	String mail;
 	String password;
-
+	
 }
-

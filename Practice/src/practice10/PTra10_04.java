@@ -17,6 +17,7 @@ public class PTra10_04 {
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
 
 
+
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
 
 
@@ -39,15 +40,33 @@ public class PTra10_04 {
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-			User[]users=new User(3);
-			
+
+			User[]users=new User[3];
+
+
+
 			java.util.Scanner
 			scanner=new java.util.Scanner(System.in);
-			
 			String line=scanner.nextLine();
-			
-			for(int i=0;i>users.length;i++) {
-			
-				
+
+
+
+			String[]user=line.split(",");
+
+			for(int i=0;i<3;i++) {
+			user.userId=;
+			user.userNm=;
+			user.mail=;
+			user.password=;
+
+
+			f
+
+
+
+
+
+
 	}
+}
 }

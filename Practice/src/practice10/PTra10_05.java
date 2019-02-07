@@ -47,6 +47,18 @@ public class PTra10_05 {
 		 * ★ 目的地についた時点で「目的地にまでn時間かかりました。残りのガソリンは、xリットルです」を出力してください
 		 * ※n：runメソッドを実行した回数, xは残りのガソリンの数です
 		 */
-
+		
+				
+		Car car;
+		car=new Car();
+			
+			car.serialNo=10000;
+			car.color="red";
+			car.gasoline=50;
+		
+			public static int run() {
+				
+				return;
+		
 	}
 }

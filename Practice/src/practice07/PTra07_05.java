@@ -28,7 +28,7 @@ public class PTra07_05 {
 			
 			for(int i=0; i<array.length; i++) {
 			
-			array[i]= new java.util.Random().nextInt(100000);
+			array[i]= new java.util.Random().nextInt(100001);
 
 
 			// ★ 配列arrayのi番目の値を出力してください

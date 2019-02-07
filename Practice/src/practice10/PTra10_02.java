@@ -34,8 +34,10 @@ public class PTra10_02 {
 
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		User us;
-		us = new User();
+	
+		
+		
+		User us = new User();
 		
 		us.userId=101;
 		us.userNm="リゾーム太郎";
@@ -47,6 +49,6 @@ public class PTra10_02 {
 		System.out.println(us.userNm);
 		System.out.println(us.mail);
 		System.out.println(us.password);
-
+		
 	}
 }
