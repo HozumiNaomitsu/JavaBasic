@@ -15,6 +15,10 @@ int num=65;
 		// ※プログラムは何行書いても良いです
 if(num>=65) {
 	System.out.println("合格です");
-}
+	}else  {
+		System.out.println("不合格です");
 	}
 }
+	}
+
+

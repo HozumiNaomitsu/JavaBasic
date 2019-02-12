@@ -1,38 +1,41 @@
 package practice10;
 
+import java.util.Random;
+
+/*
+ * 以下の仕様のクラスを作成してください（新しくJavaファイルを作成してください）
+ *
+ * クラス名
+ * 		Car
+ * フィールド
+ * 		serialNo		:	int型
+ * 		color			：	String型
+ * 		gasoline		：	int型
+ * メソッド
+ * 		戻り値(int)、メソッド名(run)、引数(なし)
+ * 			ガソリンを1消費して、ランダムな距離(1～15)進む（戻り値が進んだ距離）
+ * 			ガソリンが負の数になった場合（もう進めない）は-1を返します。
+ */
 public class Car {
 
 	int serialNo;
 	String color;
 	int gasoline;
-101	
-	User us;
-	us = new User();
-	
-	System.out.println(us.userId);
-	System.out.println(us.userNm);
-	System.out.println(us.mail);
-	System.out.println(us.password);
-102
-	
-103
-	User us;
-	us=new User();
 
-	java.util.Scanner
-	scanner=new java.util.Scanner(System.in);
-	String line = scanner.nextLine();
+	public int run() {
 
-	String[] array = line.split(",");
+		this.gasoline--;
+
+		Random rand = new Random();
+        int randomNumber = rand.nextInt(15) + 1;
+
+        if(gasoline<=0) {
+        	return -1;
+        }
+
+        return randomNumber;
 
 
 
-	us.userId=Integer.parseInt(array[0]);
-	us.userNm=array[1];
-	us.mail=array[2];
-	us.password=array[3];
-
-	System.out.println(us.userId);
-	System.out.println(us.userNm);
-	System.out.println(us.mail);
-	System.out.println(us.password);
+	}
+}

@@ -34,7 +34,7 @@ public class PTra03_04 {
 		 */
 
 
-		if(num%4 ==0 && num%400 ==0 || num%100 !=0  ) {
+		if(num%4 ==0 && num%400 ==0) {
 		System.out.println("～年はうるう年です。");
 		}else if(num%100 !=0) {
 		System.out.println("～年はうるう年ではありません。");

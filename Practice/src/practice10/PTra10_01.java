@@ -37,6 +37,8 @@ public class PTra10_01 {
 		
 		User us = new User();
 		
+		
+		
 		System.out.println(us.userId);
 		System.out.println(us.userNm);
 		System.out.println(us.mail);
