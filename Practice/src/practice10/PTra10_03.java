@@ -37,14 +37,9 @@ public class PTra10_03 {
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 
 
-		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		
-		
-	
+		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください.
 
 
-		
-	
 		User us=new User();
 
 		java.util.Scanner
@@ -63,7 +58,7 @@ public class PTra10_03 {
 		System.out.println(us.userNm);
 		System.out.println(us.mail);
 		System.out.println(us.password);
-		
+
 		}
 }
 
