@@ -9,13 +9,30 @@ package practice01;
 public class PTra01_01 {
     public static void main(String[] args) {
 
-
-    	Wallet wallet=new Wallet();
-    	wallet.money=1000;
+    	
+    	Cat.setOwnerName("hosumi");
+    	System.out.println(Cat.owner);
+    	
+    	
+    	Cat cat1 = new Cat();
+    	Cat cat2 = new Cat();
+    	
+    	Cat.owner="穂積尚光";
+    	cat1.name="ミケ";
+    	cat2.name="たま";
+    	
+    	cat1.getName();
+    	cat2.getName();
+    	
+    	
+    	
+    	Wallet wallet = new Wallet();
+    	wallet.money = 1000;
 
     	Customer customer=new Customer();
     	customer.payment(wallet,100);
 
+    	
 
     	System.out.println("財布の中身は"+wallet.money+"円");
 

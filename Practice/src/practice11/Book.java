@@ -12,8 +12,8 @@ import java.text.NumberFormat;
  * @author Rhizome
  *
  */
-public class Book {
-
+public class  Book {
+	
 	/**
 	 * コンストラクタの定義。
 	 * 本の情報を予め指定してインスタンスを作成します
