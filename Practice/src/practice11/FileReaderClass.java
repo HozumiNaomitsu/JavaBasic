@@ -44,7 +44,8 @@ public class FileReaderClass {
 								,Integer.parseInt(rowArray[2])	// 定価
 								,Integer.parseInt(rowArray[3])	// ページ数
 								,rowArray[4]	// 出版社
-							);
+							
+						);
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("ファイルが見つかりませんでした");
