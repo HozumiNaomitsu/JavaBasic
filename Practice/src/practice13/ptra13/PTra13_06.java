@@ -6,6 +6,8 @@
  */
 package practice13.ptra13;
 
+
+
 public class PTra13_06 {
 
 	/*
@@ -20,5 +22,10 @@ public class PTra13_06 {
 	 *
 	 * 		equipmentのアクセサ
 	 */
-
+	
+	
+	
+	
+	
+	
 }

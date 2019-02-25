@@ -9,9 +9,11 @@ package practice12.common;
 /**
  * 受講生の情報を格納します
  * @author Rhizome
- *
  */
+
 public class Student {
+	
+	//フィールド
 	/** 受講生ID */
 	private int studentId;
 
@@ -31,7 +33,7 @@ public class Student {
 	private String password;
 
 
-
+	//アクセサ
 	public int getStudentId() {
 		return studentId;
 	}

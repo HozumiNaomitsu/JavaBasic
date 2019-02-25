@@ -19,8 +19,7 @@ public class SuperHero extends Hero {
 
 	private Item equipment;
 
-
-
+	//アクセサ
 
 	public Item getEquipment() {
 		return equipment;
@@ -30,6 +29,7 @@ public class SuperHero extends Hero {
 		this.equipment = equipment;
 	}
 
+	//オーバーライドし加算した
 	public int attack() {
 		return super.attack() + this.equipment.getAdditionalDamage();
 	}

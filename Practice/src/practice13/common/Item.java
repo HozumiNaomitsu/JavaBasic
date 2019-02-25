@@ -40,8 +40,14 @@ public class Item {
 	public Item(String name,int additionalDamage){
 		this.name=name;
 		this.additionalDamage=additionalDamage;
-
 	}
+
+
+
+		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）をコンストラクタの引数にしてください
+				// ★ 作成したItemインスタンスをSuperHeroに持たせてください
+
+
 
 
 

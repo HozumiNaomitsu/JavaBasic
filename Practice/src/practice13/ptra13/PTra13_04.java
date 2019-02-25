@@ -37,7 +37,7 @@ public class PTra13_04 {
 		 while(true){
 
 			int H=hero.attack();
-			boolean slimeDed = slime.damage(H);;
+			boolean slimeDed = slime.damage(H);
 			if(slimeDed) {
 				System.out.println(hero.getName()+"は"+slime.getName()+"との戦闘に勝利した。");
 				break;
@@ -45,7 +45,7 @@ public class PTra13_04 {
 
 
 			int S=slime.attack();
-			boolean heroDed = hero.damage(H);;
+			boolean heroDed = hero.damage(S);
 			if(heroDed) {
 				System.out.println(slime.getName()+"は"+hero.getName()+"との戦闘に勝利した。");
 				break;

@@ -19,23 +19,23 @@ public class PTra13_07 {
 	public static void main(String[] args) {
 
 		// ★ SuperHeroインスタンスとSlimeインスタンスを作成し、それぞれの名前に"勇者（装備あり）", "スライム"を設定してください
-		SuperHero SH=new SuperHero();
-		Slime S=new Slime();
+		SuperHero Shero=new SuperHero();
+		Slime slime=new Slime();
 
-		SH.setName("勇者<装備あり>");
-		S.setName("スライム");
+		Shero.setName("勇者<装備あり>");
+		slime.setName("スライム");
 
 
 		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）をコンストラクタの引数にしてください
 
-		Item item=new Item(null,0);
-		item.setName("こんぼう");
-		item.setAdditionalDamage(4);
+		Item item=new Item("こんぼう",4);
 
 
 
 
-		// ★ 作成したItemインスタンスをSuperHeroに持たせてください
+		// ★ 作成したItemインスタンスをSuperHeroのItemフィールドに持たせてください
+		Shero.setEquipment(item);
+
 
 
 		/*
@@ -51,20 +51,21 @@ public class PTra13_07 {
 
 			 while(true){
 
-				int SH=hero.attack();
-				boolean slimeDed = slime.damage(H);;
+				int SH=Shero.attack();
+				boolean slimeDed = Shero.damage(SH);;
 				if(slimeDed) {
-					System.out.println(hero.getName()+"は"+slime.getName()+"との戦闘に勝利した。");
+					System.out.println(Shero.getName()+"は"+slime.getName()+"との戦闘に勝利した。");
 					break;
 				}
 
 
 				int S=slime.attack();
-				boolean heroDed = hero.damage(H);;
+				boolean heroDed = Shero.damage(S);;
 				if(heroDed) {
-					System.out.println(slime.getName()+"は"+hero.getName()+"との戦闘に勝利した。");
+					System.out.println(slime.getName()+"は"+Shero.getName()+"との戦闘に勝利した。");
 					break;
 				}
 
+			 }
 	}
 }
