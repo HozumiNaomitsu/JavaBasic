@@ -23,6 +23,13 @@ public class PTra18_02 {
 	 * 		各フィールドの値を、カンマ区切りの文字列で取得する
 	 */
 
+
+
+
+
+
+
+
 	public static void main(String[] args) {
 
 		/*
