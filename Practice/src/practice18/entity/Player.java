@@ -48,8 +48,9 @@ public class Player {
 		public void setTeam(String team) {
 			this.team = team;
 		}
-	public String toString() {
-		return this.position+","+this.name+","+this.country+","+this.team;
+		
+		public String toString() {
+			return this.position+","+this.name+","+this.country+","+this.team;
 	}
 
 

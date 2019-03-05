@@ -8,12 +8,12 @@ package practice16;
 
 public class PTra16_03 {
 
-//	@Override
+//@Override
 	public String toString() {
 		// TODO 自動生成されたメソッド・スタブ
 		return super.toString() + "\nPTra16_03#toString()の処\"理";
 	}
-
+	
 
 
 	/*

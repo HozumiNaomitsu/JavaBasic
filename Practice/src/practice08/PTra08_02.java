@@ -33,7 +33,7 @@ public class PTra08_02 {
 
 	public static String average(int x, int y) {
 
-		String result = "平均は：" + ((x + y) / 2);
+		String result = "平均は" + ((x + y) / 2);
 		return result;
 	}
 
