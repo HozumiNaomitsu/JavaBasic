@@ -50,19 +50,16 @@ public class PTra18_03 {
 		 * ★ ArrayListを作成して、Playerインスタンスを格納してください
 		 */
 
-
 		//zyogai
-		for (int i = array.size() -1; 0 <=i; i--) {
+		for (int i = array.size() - 1; 0 <= i; i--) {
 			if (array.get(i).getTeam().equals("レアル・マドリード") || array.get(i).getTeam().equals("バルセロナ")) {
 				array.remove(i);
+
 			}
+		} //チームだけの出力
+			//本で以前やったとこ
 
-		}
-				//チームだけの出力
-				//本で以前やったとこ
-
-				// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
-
+		// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
 
 		// ★ 削除後のArrayListの中身を全件出力してください
 		for (Player player : array) {

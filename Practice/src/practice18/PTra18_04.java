@@ -54,13 +54,62 @@ public class PTra18_04 {
 		Collections.shuffle(array);
 
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
-		for(Player s:array) {
-			if()
-	
-		
-;
-	;
-		
-	}
 
+		//for(Player s:array) {
+		//if()
+		int gkCount =0;
+		int dfCount =0;
+		int mfCount =0;
+		int fwCount =0;
+
+
+
+		for (int i = array.size() - 1; 0 <= i; i--) {
+
+			if(array.get(i).getPosition().equals("GK")) {
+				if(gkCount<1) {
+					System.out.println(array.get(i));
+					gkCount++;
+				}
+			}
+
+			if(array.get(i).getPosition().equals("DF")) {
+				if(dfCount<4) {
+					System.out.println(array.get(i));
+					dfCount++;
+				}
+			}
+			if(array.get(i).getPosition().equals("MF")) {
+				if(mfCount<4) {
+					System.out.println(array.get(i));
+					mfCount++;
+				}
+			}
+			if(array.get(i).getPosition().equals("FW")) {
+				if(fwCount<2) {
+					System.out.println(array.get(i));
+					fwCount++;
+				}
+			}
+	}
 }
+		}
+
+
+
+		//
+		//			if (array.get(i).getPosition().equals("GK") && gkCount<1){
+		//				System.out.println(array.get(i));
+		//				array.remove(i);
+		//
+		//			}else if(array.get(i).getPosition().equals("DF") && dfCount<4) {
+		//				break;
+
+		//if(array.get(i).getPosition().equals("MF") ll getPosition =4) {
+		//break;
+
+		//if(array.get(i).getPosition().equals("FW") ll getPosition=2) {
+		//break;
+
+		//|| array.get(i).getTeam().equals("バルセロナ")) {
+		//array.remove(i);
